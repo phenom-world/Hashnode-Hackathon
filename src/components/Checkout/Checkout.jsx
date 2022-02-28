@@ -42,12 +42,6 @@ const Checkout = ({ cartItems, total }) => {
     setShowAlgoModal((prev) => !prev);
   };
 
-  const [showModal, setShowModal] = useState(false);
-
-  const openModal = () => {
-    setShowModal((prev) => !prev);
-  };
-
   return (
     <div className="checkout-page">
       <div className="checkout-header">
