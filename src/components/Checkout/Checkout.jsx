@@ -12,7 +12,6 @@ import "./Checkout.scss";
 
 import styled from "styled-components";
 import AlgoModal from "../Algo-Payment-Modal/AlgoModal";
-import Modal from "../Payment-Modal/Modal";
 
 const Button = styled.button`
   min-width: 100px;
